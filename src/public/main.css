@@ -58,15 +58,15 @@ body{
 .main_contenedor{
     box-shadow: 0px 1px 1px black;
     background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
     margin-top: 11rem;
 }
 
 .biografia{
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
 }
 
@@ -80,10 +80,31 @@ body{
     text-align: justify;
 }
 
-.biografia_imagen img{
-    max-width: 1000px;
-    height: auto;
+.biografia_imagen{
+
+    display: flex;
+    flex-direction: column;
 }
+
+.biografia_imagen img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.galeria_contenedo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30rem;
+
+}
+
+.galeria_contenedo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
