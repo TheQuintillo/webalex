@@ -24,7 +24,7 @@ function Biografia() {
             </p>
         </div>
         <div className='biografia_imagen'>
-            <img src={bio} alt="My Awesome Image23" />
+            <img src={bio} alt="My Awesome Imageasdasd23" />
         </div>
     </div>
   )
