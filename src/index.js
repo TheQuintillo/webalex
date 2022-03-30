@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import Nav from './components/NavBar';
 import Biogra from './components/Biografia';
 import Galery from './components/Galeria';
-import style from './index.css';
 import Foot from './components/Footer';
 
 render(<Nav />,document.getElementById('nav'));

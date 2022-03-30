@@ -10,9 +10,9 @@ function Footer() {
         <h1>CONTACTA</h1>
         </div>
         <div className='contacta'>
-          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=+34671267550"><FontAwesomeIcon icon={faWhatsapp} className="icon_contacto" />CONTACTA POR WHATSAPP</a>
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/elojodemorfeo" ><FontAwesomeIcon icon={faInstagram} className="icon_contacto" />elojodemorfeo</a>
-          <a target="_blank" rel="noreferrer" href="tel:671267550"><FontAwesomeIcon icon={faPhone} className="icon_contacto" />LLAMAR</a>
+          <a target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=+34671267550"><FontAwesomeIcon icon={faWhatsapp} className="icon_contacto" />CONTACTA POR WHATSAPP</a>
+          <a target="_blank" rel="noopener" href="https://www.instagram.com/elojodemorfeo" ><FontAwesomeIcon icon={faInstagram} className="icon_contacto" />elojodemorfeo</a>
+          <a target="_blank" rel="noopener" href="tel:671267550"><FontAwesomeIcon icon={faPhone} className="icon_contacto" />LLAMAR</a>
         </div>
         <p>Todos los derechos reservados Alejandro Mirón.</p>
     </div>
