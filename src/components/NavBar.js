@@ -9,11 +9,9 @@ export default function NavBar() {
         </div>
         <div className='nav_menu'>
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Biografía</a></li>
-                <li><a href="">Galería</a></li>
-                <li><a href="">Redes Sociales</a></li>
-                <li><a href="">Contacta</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#footer">Contacta</a></li>
             </ul>
         </div>
     </div>
