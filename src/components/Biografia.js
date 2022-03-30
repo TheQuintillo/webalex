@@ -1,5 +1,5 @@
 import React from 'react';
-import bio from '../img/bio.png';
+import bio from '../assets/img/bio.png';
 
 
 
